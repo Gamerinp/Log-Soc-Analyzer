@@ -1,11 +1,6 @@
 
 def analizar_logs(archivo_logs: str):
-    count_falied = 0
-    count_success = 0
-    set_usuarios = set()
     cantidad_lineas = 0
-    lista_sospechosos = []
-    dict_ip = {}
     # 'r' significa modo lectura (read)
     # encoding='utf-8' es una buena práctica para evitar problemas con acentos o caracteres
     # usar la instruccion with permite cerrar el archivo automaticamente (buena practica)
